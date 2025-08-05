@@ -82,3 +82,14 @@ const relogio = setInterval (function time(){
   }
 });
 
+const btnAbrir = document.getElementById("btnAbrir");
+const popup = document.getElementById("popup");
+const btnFechar = document.getElementById("btnFechar");
+
+btnAbrir.addEventListener("click", () => {
+  popup.style.display = "flex";
+});
+
+btnFechar.addEventListener("click", () => {
+  popup.style.display = "none";
+});
