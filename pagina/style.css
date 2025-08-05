@@ -91,7 +91,7 @@ body.madrugada {
 
 }
  
-button{
+#btnAbrir{
   margin-top: 25%;
   position: fixed;
   height: 30px;
@@ -133,6 +133,7 @@ button{
   box-shadow: 5px 5px 12px #00000035;
   background: #ffffff25;
   color: white;
+  cursor: pointer;
 }
 
 #btnFechar {
@@ -142,3 +143,4 @@ button{
   font-size: 20px;
   cursor: pointer;
 }
+
